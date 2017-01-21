@@ -1,0 +1,231 @@
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #222; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    font-family: arial;
+    font-weight: bold;
+
+}
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: gray;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#copyright {
+  text-align: center;
+  background-color: #81bdff;
+  margin-top: 810px;
+  }
+
+#mreid_logo {
+  padding-left: 20px;
+}
+
+#li_logo {
+  float: left;
+/*  background-color: white;
+*//*  padding-top: 20px;
+  padding-left: 10px;
+*/}
+
+#stack_logo {
+  float: left;
+/*  background-color: red;
+*//*  padding-top: 20px;
+  padding-left: 5px;*/
+}
+
+#git_logo {
+  float: left;
+/*  background-color: green;
+*//*  padding-top: 20px;
+  padding-left: 5px;*/
+}
+
+#banner {
+  background-color: #222;
+  height: 90px;
+}
+
+#nav-bar-icon { 
+  position: relative;
+  left: 15px;
+  top: 20px;
+}
+
+/*#nav-bar-icon a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+*/
+#banner_logo {
+  position: absolute;
+  top: 1%;
+  left: 43%;
+}
+
+/*#portfolio_container {
+  position: relative;
+  background-color: red;
+  width: 150px;
+  height: 120px;
+
+}*/
+#portfolio_container_top {
+  background-color: #e7e7e7;
+  width: 75%;
+  height: 800px;
+  float: left;
+  margin: 30px;
+}
+
+#Portfolio_title {
+  background-color: #81bdff;
+  height: 10px;
+  font-family: 
+}
+
+p {
+  font-size: 30px;
+  font-color: black;
+  font-weight: bold;
+  font-family: 'Tangerine', serif;
+  text-align: center;
+
+}
+
+#contact_header {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Tangerine', serif;
+  margin: 10px;
+
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+  font-family: 'Tangerine', serif;
+
+}
+
+#page_title {
+  font-size: 50px;
+  font-color: black;
+  font-weight: bold;
+  font-family: 'Tangerine', serif;
+  font: arial;
+  font-weight: bold;
+  margin: 10px;
+}
+
+#port01 {
+/*  border:3px solid black;
+*/  float: left;
+  margin: 20px;
+}
+
+#port02 {
+/*  border:3px solid black;
+*/  float: left;
+  margin:20px;
+}
+
+#port03 {
+/*  border:3px solid black;
+*/  float: left;
+  margin: 20px;
+}
+
+#port04 {
+  float: left;
+  margin: 20px;
+}
+
+#port05 {
+  float: left;
+  margin: 20px;
+}
+
+#port06 {
+  float: left;
+  margin: 10px;
+}
+
+#name_input {
+  margin-left: 10px;
+}
+
+#email_input {
+  margin-left: 10px;
+}
+
+#message_input {
+  margin-left: 10px;
+}
+
+#personal_bio {
+  float:left;
+  font-size: 30px;
+  font-color: black;
+  font-weight: bold;
+  font-family: arial;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#portrait {
+  float: 50%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#copyright2 {
+  text-align: center;
+  background-color: #81bdff;
+  margin-top: 110px;
+  }
+
+  #copyright1 {
+  text-align: center;
+  background-color: #81bdff;
+  margin-top: 410px;
